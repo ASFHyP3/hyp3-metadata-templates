@@ -156,7 +156,7 @@ The iso.xml file contains general information about the processing of this produ
 -------------
 ## 8. Shapefile
 
-The shapefile (comprised of the four files tagged with _shape) contains polygons indicating the full raster extent (including padding), as well as the extent of actual data (pixels with values other than NoData). 
+The shapefile (comprised of the four files tagged with _shape) contains a polygon indicating the extent of actual data (pixels with values other than NoData).
 
 -------------
 ## 9. Log file
@@ -198,4 +198,4 @@ uso@asf.alaska.edu
 907-474-5041
 
 -------------
-Revised 2020-05-18
+Revised 2020-05-20
