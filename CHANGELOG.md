@@ -9,7 +9,8 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ## [0.1.4](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.1.3...v0.1.4)
 
 ### Changed
-* Use past tense when describing scattering area cell value calculations
+* Use past tense when describing scattering area cell value calculations to clarify that they reflect the
+  user-provided radiometry
 
 ## [0.1.3](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.1.2...v0.1.3)
 
