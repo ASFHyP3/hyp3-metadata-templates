@@ -8,6 +8,10 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [0.2.0](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.1.4...v0.2.0)
 
+### Added
+* [IFSAR](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-interferometric-synthetic-aperture-radar)
+  DEM (DSM version only) is now supported
+
 ### Changed
 * Product README will only include information about the specific DEM used
 * For unsupported (unknown) DEMs
