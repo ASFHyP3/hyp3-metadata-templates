@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/) 
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.0](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.1.4...v0.2.0)
+
+### Added
+* [IFSAR](https://www.usgs.gov/centers/eros/science/usgs-eros-archive-digital-elevation-interferometric-synthetic-aperture-radar)
+  DEM (DSM version only) is now supported
+
+### Changed
+* Product README will only include information about the specific DEM used
+* For unsupported (unknown) DEMs
+  * no `_dem.tif.xml` will be created
+  * DEM resolution will be set to `UNKNOWN`
+  * No DEM blurb nor any references to `_dem.tif.xml` will be included in the product README
+
 ## [0.1.4](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.1.3...v0.1.4)
 
 ### Changed
