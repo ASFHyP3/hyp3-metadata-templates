@@ -18,4 +18,3 @@ dependencies:
   - pip:
     # for packaging and testing
     - s3pypi
-    - safety
