@@ -1,4 +1,4 @@
-name: hyp3-metadata
+name: hyp3-metadata-templates
 channels:
   - conda-forge
   - nodefaults
