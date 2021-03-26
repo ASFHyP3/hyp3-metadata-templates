@@ -14,6 +14,9 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 * `_rgb.xml` ArcGIS metadata file is now generated for RTC products that include an RGB decomposition GeoTIFF.
 * RTC product README now includes a description of the optional RGB decomposition GeoTIFF.
 
+### Changed
+* Environment name in `conda-env.yml` has been changed to `hyp3-metadata-templates` to match the project name.
+
 ## [0.3.0](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.2.0...v0.3.0)
 
 ### Added
