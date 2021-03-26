@@ -30,7 +30,7 @@ jobs:
         with:
           auto-update-conda: true
           python-version: ${{ matrix.python-version }}
-          activate-environment: hyp3-metadata
+          activate-environment: hyp3-metadata-templates
           environment-file: conda-env.yml
 
       - name: Pytest in conda environment
@@ -145,7 +145,7 @@ jobs:
         with:
           auto-update-conda: true
           python-version: 3.7
-          activate-environment: hyp3-metadata
+          activate-environment: hyp3-metadata-templates
           environment-file: conda-env.yml
 
       - name: Pip install ${{ needs.package.outputs.SDIST_VERSION }}

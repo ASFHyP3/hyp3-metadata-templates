@@ -6,6 +6,17 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/) 
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.0](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.3.0...v0.4.0)
+
+### Added
+* Package level script to generate an example set of metadata for a product;
+  see [the README](README.md) for usage.
+* `_rgb.xml` ArcGIS metadata file is now generated for RTC products that include an RGB decomposition GeoTIFF.
+* RTC product README now includes a description of the optional RGB decomposition GeoTIFF.
+
+### Changed
+* Environment name in `conda-env.yml` has been changed to `hyp3-metadata-templates` to match the project name.
+
 ## [0.3.0](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.2.0...v0.3.0)
 
 ### Added
