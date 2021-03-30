@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/) 
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.1](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.4.0...v0.4.1)
+
+### Added
+* Additional info in Copernicus DEM GLO-30 xml template
+
+### Changed
+* Sentinel-1 mission URL in all templates (resolves https://github.com/ASFHyP3/hyp3-metadata-templates/issues/58)
+* The expected dem name value for Copernicus DEM GLO-30 is now `GLO-30` for:
+  * `dem_name` parameter to `hyp3_metadata.create_metadata_file_set()`
+  * `--dem-name` parameter to `hyp3_metadata` entrypoint
+
+### Removed
+* Reference to geocoded products from hyp3.asf.alaska.edu from all xml templates other than `product.xml.j2`
+
 ## [0.4.0](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.3.0...v0.4.0)
 
 ### Added
