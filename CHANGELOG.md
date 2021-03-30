@@ -12,7 +12,7 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 * Additional info in Copernicus DEM GLO-30 xml template
 
 ### Changed
-* Sentinel-1 mission URL in all templates (resolves [#58](https://github.com/ASFHyP3/hyp3-metadata-templates/issues/58))
+* Sentinel-1 mission URL in all templates (resolves [#58])
 * The expected dem name value for Copernicus DEM GLO-30 is now `GLO-30` for:
   * `dem_name` parameter to `hyp3_metadata.create_metadata_file_set()`
   * `--dem-name` parameter to `hyp3_metadata` entrypoint
