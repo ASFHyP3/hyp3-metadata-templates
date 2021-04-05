@@ -10,12 +10,15 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 * Additional info in Copernicus DEM GLO-30 xml template
+* Additional RGB Decomposition info in the color browse xml template
 
 ### Changed
 * Sentinel-1 mission URL in all templates (resolves [#58](https://github.com/ASFHyP3/hyp3-metadata-templates/issues/58))
 * The expected dem name value for Copernicus DEM GLO-30 is now `GLO-30` for:
   * `dem_name` parameter to `hyp3_metadata.create_metadata_file_set()`
   * `--dem-name` parameter to `hyp3_metadata` entrypoint
+* Scattering area map metadata now correctly lists the radiometry as gamma-0 instead of the radiometry parameter specified for the RTC output  
+* Updated formatting of URL links in xml files so that they open in a separate browse window when clicked in ArcGIS Pro
 
 ### Removed
 * Reference to geocoded products from hyp3.asf.alaska.edu from all xml templates other than `product.xml.j2`
