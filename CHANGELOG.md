@@ -6,6 +6,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/) 
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.4.2](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.4.1...v0.4.2)
+
+### Added
+* Additional RGB Decomposition info in the color browse xml template
+
+### Changed
+* Scattering area map metadata now correctly lists the radiometry as gamma-0 instead of the radiometry parameter
+  specified for the RTC output
+* Updated formatting of URL links in xml files so that they open in a separate browse window when clicked in ArcGIS Pro
+
 ## [0.4.1](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.4.0...v0.4.1)
 
 ### Added
