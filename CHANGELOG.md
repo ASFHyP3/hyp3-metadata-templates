@@ -11,6 +11,12 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 - creation of rtc metadata files moved to `rtc.py`
 - `create.create_metadata_file_set` renamed to `create.create_metadata_file_set_rtc`
 
+## [0.4.3](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.4.1...v0.4.2)
+
+### Changed
+* Provided different attribution statement options for different uses
+* Updated link for new version of the RTC Product Guide 
+
 ## [0.4.2](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.4.1...v0.4.2)
 
 ### Added
