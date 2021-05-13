@@ -7,6 +7,9 @@ and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/)
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [1.0.0]
+### Added
+* Readme file for InSAR products
+
 ### Changed
 * creation of rtc metadata files moved to `rtc.py`
 * `create.create_metadata_file_set` renamed to `create.create_metadata_file_set_rtc`
