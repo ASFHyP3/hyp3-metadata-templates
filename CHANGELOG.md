@@ -11,6 +11,7 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 * Readme file for InSAR products
+* `InSarMetadataWriter` class to handle generation of InSar metadata files
 
 ### Changed
 * Provided different attribution statement options for different uses
