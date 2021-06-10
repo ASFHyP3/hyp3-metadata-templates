@@ -17,7 +17,7 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 * Provided different attribution statement options for different uses
 * Updated link for new version of the RTC Product Guide 
 
-## [1.1.0]
+## [1.1.0](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v1.0.0...v1.1.0)
 ### Changed
 - Added DB option to RTC Readme
 
