@@ -6,7 +6,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/) 
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## 1.1.0
+
+## [1.2.0](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.4.2...v1.0.0)
 
 ### Added
 * Readme file for InSAR products
@@ -16,6 +17,12 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 * Updated link for new version of the RTC Product Guide 
 
 ## [1.0.0](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.4.2...v1.0.0)
+
+## [1.1.0]
+### Changed
+- Added DB option to RTC Readme
+
+## [1.0.0]
 
 ### Changed
 * creation of rtc metadata files moved to `rtc.py`
