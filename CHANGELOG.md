@@ -21,7 +21,7 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 ### Changed
 - Added DB option to RTC Readme
 
-## [1.0.0]
+## [1.0.0](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v0.4.2...v1.0.0)
 
 ### Changed
 * creation of rtc metadata files moved to `rtc.py`
