@@ -7,6 +7,11 @@ and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/)
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [1.2.2](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v1.2.1...v1.2.2)
+
+### Changed
+* Minor language edits to InSAR metadata templates
+
 ## [1.2.1](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v1.2.0...v1.2.1)
 
 ### Fixed
