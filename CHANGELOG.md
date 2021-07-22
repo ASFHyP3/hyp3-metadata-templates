@@ -13,6 +13,7 @@ and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Changed
 * Updated InSAR README file to add a description of the ellipsoid incidence angle file
+* `conda-env.yml` has been renamed to `environment.yml` in-line with community practice
 
 ## [1.2.4](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v1.2.3...v1.2.4)
 
