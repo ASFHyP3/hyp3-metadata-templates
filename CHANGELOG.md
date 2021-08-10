@@ -6,6 +6,20 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [PEP 440](https://www.python.org/dev/peps/pep-0440/) 
 and uses [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.3.0](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v1.2.5...v1.3.0)
+
+### Added
+* Updated InSAR templates to describe whether the water mask has been applied during phase unwrapping
+
+### Changed
+* Updated descriptive language in water mask documentation to include large inland water bodies
+* InSAR metadata interfaces to accept a parameter specifying if the water mask has been
+  applied during phase unwrapping
+  * `--water-mask-applied` argument added to the `insar` argument parser
+  * `water_mask_applied` positional argument added to
+    * `hyp3_mdatadata.create.create_metadata_file_set_insar`
+    * `hyp3_metadata.insar.marshal_metadata`
+
 ## [1.2.5](https://github.com/ASFHyP3/hyp3-metadata-templates/compare/v1.2.4...v1.2.5)
 
 ### Added
