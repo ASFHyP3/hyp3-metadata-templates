@@ -1,5 +1,16 @@
 # HyP3 Metadata Templates
 
+--- 
+## NOTICE: This repository is archived!
+
+We've archived this repository and merged it into the [hyp3-gamma](https://github.com/ASFHyP3/hyp3-gamma)
+plugin. Currently, only the hyp3-gamma plugin is leveraging this package and updating
+metadata GAMMA based products is needlessly slowed down. If and when we have non-GAMMA
+based plugins that could leverage this package, we *may* revive this package, or a core
+subset therein. 
+
+---
+
 Package for generating HyP3 products' metadata.
 
 The goal is for each process to have a README text file, which gives an overview
