@@ -75,7 +75,7 @@ The files generated in this process include:
 1. Wrapped Interferogram (PNG images, KMZ file, GeoTIFF (*optional*))
 2. Unwrapped Interferogram (GeoTIFF, PNG images, KMZ file)
 3. Line-of-Sight Displacement Map (GeoTIFF) - *Optional*
-4. Vertical Displacement Map (GeoTIFF)
+4. Vertical Displacement Map (GeoTIFF) - *Optional*
 5. Coherence Map (GeoTIFF)
 6. Amplitude Image (GeoTIFF)
 7. Parameter Documentation (Text File)
@@ -117,18 +117,18 @@ The unwrapped interferogram files are tagged with _unw_phase, and the _unw_phase
 ----------------
 ## 3. Line-of-Sight Displacement Map
 
-The LOS displacement map is in GeoTIFF format and converts the unwrapped differential phase into measurements of ground movement in meters along the look vector (line-of-sight). Positive values indicate movement towards the sensor (such as uplift), while negative values indicate movement away from the sensor (such as subsidence).
+The LOS displacement map is in GeoTIFF format and converts the unwrapped differential phase into measurements of ground movement in meters along the look vector (line-of-sight). Positive values indicate movement towards the sensor (such as uplift), while negative values indicate movement away from the sensor (such as subsidence). Because displacement values are calculated relative to the phase unwrapping reference point, the values in the map may not be appropriate. In some cases, it may be necessary to select a different reference point and apply a correction to the image to generate values that are relative to a more appropriate reference value.
 
 Note that the displacement maps will be impacted by any atmospheric effects or phase unwrapping errors (including over water) that are present in the unwrapped interferogram. Use caution when interpreting deformation maps generated from a single interferograms. Consider selecting the option to "Apply Water Mask" if the product contains coastal waters or large inland waterbodies. This product {{ "had" if water_mask_applied else "did not have" }} a water mask applied during the phase unwrapping process.
 
 The LOS displacement map is tagged with _los_disp.tif
 
-*This file is optional. Select the "Include LOS Displacement" option in the On Demand HyP3 Processing Options to include it in the product package.*
+*This file is optional. Select the "Include Displacement Maps" option in the On Demand HyP3 Processing Options to include it in the product package.*
 
 ----------------
 ## 4. Vertical Displacement Map
 
-GAMMA software generates a vertical displacement GeoTIFF from the unwrapped differential phase measurements under the assumption that the displacement is entirely in the vertical direction. The height map is transformed from the radar geometry (slant range/Doppler) using a DEM and resampled to the WGS84 ellipsoid to output an orthorectified product.
+GAMMA software generates a vertical displacement GeoTIFF from the unwrapped differential phase measurements under the assumption that the displacement is entirely in the vertical direction. The height map is transformed from the radar geometry (slant range/Doppler) using a DEM and resampled to the WGS84 ellipsoid to output an orthorectified product. Because displacement values are calculated relative to the phase unwrapping reference point, the values in the map may not be appropriate. In some cases, it may be necessary to select a different reference point and apply a correction to the image to generate values that are relative to a more appropriate reference value.
 
 Note that in cases where displacement has both a vertical and a horizontal component to the change, the assumptions used to generate height may not be correct. Time series analysis or external data sources may be necessary to generate reliable displacement maps that take into consideration the relative influences of horizontal and vertical movement.
 
@@ -137,6 +137,8 @@ The displacement maps will be impacted by any atmospheric effects or phase unwra
 Values are in meters, with positive values indicating uplift and negative values indicating subsidence.
 
 The vertical displacement map is tagged with _vert_disp.tif
+
+*This file is optional. Select the "Include Displacement Maps" option in the On Demand HyP3 Processing Options to include it in the product package.*
 
 ----------------
 ## 5. Coherence Map
