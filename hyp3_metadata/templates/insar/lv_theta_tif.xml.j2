@@ -19,7 +19,7 @@ Processing Date/Time: {{ processing_date.isoformat(timespec='seconds') }}
 
 An important use of look vectors expressed in map geometry is the interpretation of 3D surface deformation. The main application is monitoring landslides and glaciers, where there is the assumption of motion along the gradient of the topographic height. Differential interferometry permits the deformation component in the SAR look direction to be estimated using the displacement component in the look direction and the direction angles (elevation theta and orientation phi) in the map geometry. The GAMMA program dispmap_vec can be used to perform these estimations.
 
-This raster can also be used to calculate an incidence angle that accounts for elevation differences but not slope angle, by subtracting the lv_theta value from pi divided by 2. It is also used when recalculating vertical displacement values from an unwrapped phase raster adjusted to a new reference point.
+This raster can also be used to calculate an incidence angle that accounts for elevation differences but not slope angle, by subtracting the lv_theta value from pi divided by 2. This calculation is often used for applying atmospheric correction. It is also used when recalculating vertical displacement values from an unwrapped phase raster adjusted to a new reference point.
 
 Refer to ASF's [InSAR Product Guide](https://hyp3-docs.asf.alaska.edu/guides/insar_product_guide/) for more information about On Demand InSAR products.
 
